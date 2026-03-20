@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CLARO COLOMBIA</title>
+    <title>POSTOBON</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body >
-    <header>
-        
+    <header class="encabezado-principal">
         <nav class="menu">
             <ul>
                 <li><a href="#">Inicio</a></li>
@@ -16,37 +15,74 @@
                 <li><a href="view/contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        
+        <div class="imagen">
+            <img src="img/POSTOBON.jpeg" alt="logo">
+        </div>
     </header>
     <main>
-        <div class="imagen_claro">
-            <img src="img/img_claro.jpeg" alt="logo">
-        </div>
         <div class="noticias">
-            <h1>Claro Colombia</h1>
-            <p><strong>Claro Colombia</strong> es una empresa de telecomunicaciones que ofrece servicios de telefonía móvil, internet fijo, televisión por suscripción y soluciones para hogares y empresas en todo el país.</p>
-            <p>Pertenece al grupo América Móvil y está comprometida con conectar a los colombianos mediante tecnología, atención al cliente y una amplia cobertura nacional. Entre sus servicios se encuentran planes de voz y datos, internet de alta velocidad, TV Claro y paquetes convergentes.</p>
-            <p>Puedes consultar saldo, pagar facturas, contratar o cambiar planes desde la App Mi Claro, la página web o en los puntos de atención en todo el territorio.</p>
+            <h2>Sección de noticias</h2>
+            <div class="noticias-audio">
+                <audio controls>
+                    <source src="audio/AUDIO.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el audio.
+                </audio>
+            </div>
+            <article class="noticia">
+                <h3>Postobón impulsa iniciativas de sostenibilidad</h3>
+                <p>Postobón anunció nuevas acciones para fortalecer el reciclaje de envases y promover el consumo responsable en diferentes regiones del país. La compañía indicó que estas iniciativas buscan reducir el impacto ambiental y fomentar una cultura de cuidado del entorno entre sus consumidores y aliados.</p>
+            </article>
+            <article class="noticia">
+                <h3>Nuevo programa de apoyo a emprendedores locales</h3>
+                <p>La compañía presentó un programa para acompañar a pequeños emprendedores con capacitaciones en gestión comercial, mercadeo digital y desarrollo de productos. Con esta iniciativa, Postobón busca fortalecer economías locales y generar más oportunidades de crecimiento en distintas ciudades del país.</p>
+            </article>
+            <article class="noticia">
+                <h3>Postobón amplía su red de distribución nacional</h3>
+                <p>Con el objetivo de mejorar tiempos de entrega y cobertura, Postobón anunció la ampliación de su red logística en varias regiones del país. Esta mejora permitirá una atención más eficiente a comercios aliados y consumidores finales, garantizando mayor disponibilidad de productos.</p>
+            </article>
         </div>
-        <div class="video-claro">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WLraF8zIf64?si=y_vYB3MWfbFZLqVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="audio">
-            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/79IBoMfFn67UI15YkP1FSp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        </div>
-
-        <div class="mas_info">
+        <section class="formulario-index">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="usuario-index">Usuario</label>
+                    <input type="text" id="usuario-index" name="usuario" placeholder="Your username.." required>
+                </div>
+                <div>
+                    <label for="password-index">Password</label>
+                    <input type="password" id="password-index" name="password" placeholder="Your password.." required>
+                </div>
+                <div>
+                    <label for="rol-index">Rol</label>
+                    <select id="rol-index" name="rol" required>
+                        <option value="administrador">Administrador</option>
+                        <option value="usuario">Usuario</option>
+                        <option value="invitado">Invitado</option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="video-mapa">
+            <div class="video-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Minp8Bsr_Jo?si=9xlEzFGmwxUxtf9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="mapa-item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.932029023722!2d-73.60196012573857!3d8.30955379983708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5d8581346de901%3A0xdbc82a200c09b8fc!2sPostobon!5e0!3m2!1ses!2sco!4v1774038101375!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="footer">
-            <p>Página creada por: EDWARD TRIGOS y FRANCISCO RINCÓN</p>
+            <p>Página web creada solo para fines netamente académicos: EDWARD TRIGOS.</p>
             <div class="iconos">
-                <a href="https://www.facebook.com/ClaroCol/" target="_blank" title="Facebook">
+                <a href="https://www.facebook.com/Postobon/?locale=es_LA" target="_blank" title="Facebook">
                     <img src="img/facebook.png" alt="Facebook">
                 </a>
-                <a href="https://www.instagram.com/clarocolombia/" target="_blank" title="Instagram">
+                <a href="https://www.instagram.com/postobonempresa/" target="_blank" title="Instagram">
                     <img src="img/instagram.png" alt="Instagram">
                 </a>
-                <a href="https://api.whatsapp.com/send/?phone=573205000000&text=Quiero+comprar+con+un+asesor&app_absent=0" target="_blank" title="X (Twitter)">
+                <a href="https://api.whatsapp.com/send/?phone=573152004717&text&type=phone_number&app_absent=0">
                     <img src="img/whatsaapp.png" alt="X">
                 </a>
             </div>

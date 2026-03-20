@@ -1,0 +1,326 @@
+body {
+
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+	padding: 10px;
+	margin: auto;
+	text-align: justify;
+}
+
+.imagen img {
+    width: 100%;
+    height: 340px;
+    border-radius: 13px;
+    object-fit: cover;
+}
+
+.encabezado-principal {
+    position: relative;
+}
+
+.encabezado-principal .imagen {
+    width: 100%;
+}
+
+.menu {
+    background: rgb(52, 69, 193);
+}
+
+.menu ul li a{
+	background: white;
+    color: black;
+	text-decoration:none;
+	display:inline-block;
+	padding: 16px;
+    border-radius: 9px;
+}
+
+.menu ul{
+	list-style:none;
+}
+
+.menu ul li{
+	float: left;
+}
+
+.encabezado-principal .menu {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    width: 170px;
+    background: transparent;
+    z-index: 2;
+}
+
+.encabezado-principal .menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado-principal .menu ul li {
+    float: none;
+    margin-bottom: 10px;
+}
+
+.encabezado-principal .menu ul li a {
+    display: block;
+    text-align: center;
+}
+
+main{
+	clear:both;
+}
+
+.noticias {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e9f2fb;
+    border-radius: 12px;
+    position: relative;
+}
+
+.noticias h2 {
+    margin: 0 0 12px 0;
+    color: #2f5f95;
+    padding-right: 260px;
+}
+
+.noticias-audio {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.noticias-audio audio {
+    width: 245px;
+}
+
+.noticia h3 {
+    margin: 0 0 10px 0;
+    color: #2f5f95;
+}
+
+.noticia p {
+    margin: 0;
+    color: #2f5f95;
+    line-height: 1.5;
+}
+
+.formulario-index {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e9f2fb;
+    border-radius: 12px;
+}
+
+.formulario-index h2 {
+    margin: 0 0 14px 0;
+    color: #2f5f95;
+}
+
+.formulario-index form div {
+    margin-bottom: 10px;
+}
+
+.formulario-index label {
+    display: block;
+    margin-bottom: 6px;
+    color: #2f5f95;
+    font-weight: 700;
+}
+
+.formulario-index input,
+.formulario-index select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b7c8de;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.formulario-index input:focus,
+.formulario-index select:focus {
+    border-color: rgb(52, 69, 193);
+    outline: none;
+}
+
+.formulario-index button {
+    width: 100%;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    background: rgb(52, 69, 193);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario-index button:hover {
+    background: rgb(189, 38, 38);
+}
+
+.video-mapa {
+    margin-top: 20px;
+    display: flex;
+    gap: 14px;
+}
+
+.video-item,
+.mapa-item {
+    flex: 1;
+}
+
+.video-mapa iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+}
+
+.video-claro {
+    margin: 20px 0;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-claro iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 13px;
+}
+
+.menu ul li a:hover{
+	background: rgb(166, 211, 234);
+	color: rgb(0, 0, 0);
+}
+/*SERVICIOS*/
+.img_servicios img {
+    width: 100%;
+}
+
+.info_servicios {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e9f2fb;
+    border-radius: 12px;
+}
+
+.info_servicios h2 {
+    margin: 0 0 12px 0;
+    color: #2f5f95;
+}
+
+.info_servicios p {
+    margin: 0 0 12px 0;
+    color: #2f5f95;
+    line-height: 1.5;
+}
+
+.info_servicios p:last-child {
+    margin-bottom: 0;
+}
+
+/*FOOTER*/
+footer {
+    background: rgb(166, 211, 234);
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconos a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: none;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+}
+
+.iconos a img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.iconos a:hover {
+    background-color: none;
+    transform: scale(1.15);
+}
+
+/* Formulario de contacto */
+.formulario-registro {
+    max-width: auto;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-registro div {
+    margin-bottom: 15px;
+}
+
+.formulario-registro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(38, 86, 189);
+}
+
+/* Todos los inputs (texto, número, email, contraseña) */
+.formulario-registro input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.formulario-registro input:focus {
+    border-color: rgb(9, 60, 79);
+    outline: none;
+}
+
+.formulario-registro button {
+    background: rgb(38, 56, 189);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario-registro button:hover {
+    background: rgb(166, 211, 234);
+}
